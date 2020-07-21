@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon"span><i class="fas fa-peace"></i></span>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="css/styleE.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <title>PEACE&VOUGE</title>
+    <script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+    });
+  });
+</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">PEACE&VOUGE<span> <i class="far fa-hand-peace"></i></span></h1>
+        </div>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <li><a href="#pageA">Home</a></li>
+                <li><a href="#pageC">Blog</a></li>
+                <li><a href="#pageD">Productos</a></li>
+                <li><a href="#pageE">Trends</a></li>
+                <li><a href="#pageF">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
+            <div class="hamburger"></div>
+        </div>
+    </header>
+    <script src="js/app.js"></script>
+
+    <section id="pageA">
+        <h1>Tendencias</h1>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="img/a.jpg" alt="">
+                    <section class="flex-caption">
+                        <p>Peace & Vouge</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/b.png" alt="">
+                    <section class="flex-caption">
+                        <p>Peace & Vouge</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/c.jpg" alt="">
+                    <section class="flex-caption">
+                        <p>Peace & Vouge</p>
+                    </section>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="pageC">
+        <h1>BLOG</h1>
+        <div class="contenedor">
+            <div class="info-cliente">
+                <img src="img/cool.jpg" alt="Chico Cool">
+                <h4>Luce Como “Chico Cool” Sin Disfrazarte En El Intento!</h4><p></p>
+                <h5>¿Te ha pasado que un día te despiertas con ganas de un cambio? No estas segura si es el color de tu cabello..</h5>
+            </div>
+            <div class="info-cliente">
+                <img src="img/fast.jpg" alt="Fast-Fashion">
+                <h4>La Demonización del Fast Fashion</h4><p></p>
+                <h5>A estas alturas creo que todos estamos enterados de la terrible situación en la que se encuentra nuestro planeta...</h5>
+            </div>
+            <div class="info-cliente">
+                <img src="img/t.jpg" alt="Trends">
+                <h4>Cuando lo Clásico se Convierte en Tendencia</h4><p></p>
+                <h5>Intentas refrescar tu estilo y lo primero que haces es buscar referentes de moda importantes para saber “que...</h5>
+            </div>
+            <div class="info-cliente">
+                <img src="img/skin.jpeg" alt="Skincare">
+                <h4>5 Tips Para Devolverle el Brillo a tu Piel </h4><p></p>
+                <h5> No es física cuántica ni el secreto mejor guardado, la verdad es que...</h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="pageD">
+        <h1>Productos</h1>
+        <div class="contenedor">
+            <div class="info-producto">
+                <img src="img/perfume.jpg" title="30$">
+                <h4> Moschino Fresh</h4>
+            </div>
+            <div class="info-producto">
+                <img src="img/short.jpg" title="40$">
+                <h4>Supreme Short</h4>
+            </div>
+            <div class="info-producto">
+                <img src="img/gomas.jpg" title="170$">
+                <h4>Sneakers nike & Supreme collab.</h4>
+            </div>
+            <div class="info-producto">
+                <img src="img/sneak.jpg" title="270$">
+                <h4>*New* - Sneakers nike & Supreme collab.</h4>
+            </div>
+            <div class="info-producto">
+                <img src="img/asap.jpg" title="120$">
+                <h4>Asap Rocky for DIOR Shirt</h4>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pageE">
+        <h1>Trends</h1>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="img/inv.jpg" alt="">
+                    <section class="flex-caption">
+                        <p>OTOÑO - INVIERNO 2020</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/spring.jpg" alt="">
+                    <section class="flex-caption">
+                        <p>PRIMAVERA 2021</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/summer.jpg" alt="">
+                    <section class="flex-caption">
+                        <p>VERANO 2021</p>
+                    </section>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="pageF">
+        <h1>Contacto</h1>
+        <div id="cuerpo">
+            <div id="izquierda">
+            <h2>Deseas un Asesor de Imagen Personal?</h2>
+            <p>Puedes enviarnos tus comentarios y/o sugerencias por medio de este formulario</p>
+           
+            <form name="form1" action="#" method="post">
+            <label class="label-texto">Tu Nombre</label><br />
+            <input class="caja-texto" name="nombre" type="text" placeholder="Ingrese tu nombre
+           aqui..."><br />
+           
+            <label class="label-texto">Tu correo</label><br />
+            <input class="caja-texto" type="mail" name="correo" placeholder="Ingrese su correo
+           aqui..."><br />
+           
+            <label class="label-texto">Tu Número Móvil</label><br />
+            <input class="caja-texto" name="telefono" type="text" placeholder="Ingrese tu número
+           de Móvil aqui..."><br />
+           
+            <label class="label-texto">Tu Mensaje</label><br />
+            <textarea class="text-area" name="mensaje" placeholder="Ingrese tu mensaje
+           aqui..."></textarea><br />
+           
+            <input class="boton" type="submit" value="Enviar Mensaje">
+           
+            </form>
+           
+            </div>
+            <div id="derecha">
+            <h2 class="centrada">Nuestros Teléfonos</h2>
+            <p class="centrada">
+            +58-261-7924565<br />
+            +58-216-7924555
+            </p>
+            <hr />
+            <h2 class="centrada">Dirección</h2>
+            <p class="centrada">
+            Centro Comercial Santo Angel, <br />Piso 3, Oficina No. 9. <br />Maracaibo Edo Zulia
+            </p>
+            <hr />
+            <h2 class="centrada">Ubicanos</h2>
+            <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+           1d3920.52650538128!2d-71.63652048565402!3d10.693813063638395!2m3!1f0!2f0!3f0!3m2!1i1024!
+           2i768!4f13.1!3m3!1m2!1s0x8e899ecd22a1b721%3A0xd2cfab5751fcd5cc!2sUniversidad%20Privada
+           %20Dr.%20Rafael%20Belloso%20Chac%C3%ADn!5e0!3m2!1ses-419!2sve!4v1591814513097!5m2!
+           1ses-419!2sve" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" ariahidden="false" tabindex="0"></iframe>
+           
+            </center>
+            </div>
+           
+            </div>
+    </section>
+
+    <footer>
+		<div id="contenedor">
+			<p class="copy"> KEVIN RIVERA - PEACE & VOUGE &copy; 2020</p>
+			<div class="sociales">
+			<span><i class="fab fa-twitter-square"></i></span>
+			<span><i class="fab fa-pinterest-square"></i></span>
+			<span><i class="fab fa-facebook-square"></i></span>
+			<span><i class="fab fa-instagram"></i></span>
+		</div>
+	</footer>
+</body>
+</html>
